@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/7ed345956a.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr Arif</title>
+</head>
+
+<body>
+
+
+
+    <section class="mx-auto  lg:px-[150px] max-w-[1511px] ">
+        <!-- navar start -->
+        <nav class=" mt-10 justify-between flex items-center justify-between">
+            <div>
+                <img src="/Image/Logo (1).png" class="hidden lg:block" alt="Flowbite Logo">
+                <img src="/Image/mobile logo image.jfif" class="lg:hidden ml-0" alt="Flowbite Logo">
+            </div>
+            <!-- mobile version -->
+
+            <div>
+                <div class="items-center justify-between  md:flex  hidden md:w-auto md:order-1">
+                    <ul id="background-div"
+                        class="  p-[200px] gap-[40px] text-[20px] navul space-y-[20px] bg-gray-200 w-full h-screen  font-medium md:hidden fixed top-[0px]  w-full ">
+                        <li class="hover:text-[#B81C58]">Home </li>
+                        <li class="hover:text-[#B81C58]">Service</li>
+                        <li class="hover:text-[#B81C58]">About us </li>
+                        <li class="hover:text-[#B81C58]"><a href="blogs.html">Blogs</a></li>
+                        <li class="hover:text-[#B81C58]"><a href="our success.html">Our success </a></li>
+                    </ul>
+                    <!-- for large device -->
+                    <div class="items-center justify-between hidden md:block  w-full  md:w-auto">
+                        <ul class="flex gap-[40px] text-[20px] navul font-semibold ">
+                            <li class="hover:text-[#B81C58]">Home </li>
+                            <li class="hover:text-[#B81C58]">Service</li>
+                            <li class="hover:text-[#B81C58]"><a href="about.html">About us</a> </li>
+                            <li class="hover:text-[#B81C58]"><a href="/blogs.html">Blogs</a></li>
+                            <li class="hover:text-[#B81C58]"><a href="our success.html">Our success</a> </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="md:hidden flex gap-2">
+                <button class="block">
+                    <i class="fa-solid fa-sun text-[20px] "></i>
+                </button>
+                <button id="hover-btn" class=" text-3xl">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            <div class=" md:flex gap-[22px] hidden md:block ">
+                <button class="">
+                    <img src="/Image/Vector.svg" alt="">
+                </button>
+                <button type="button" class="text-white text-[16px]  bg-[#B81C58] border
+                    rounded-[15px] px-[24px] py-[16px] font-medium
+                   ">Get
+                    started </button>
+            </div>
+
+
+
+            <!-- <div class="max-w-screen-xl md:flex flex-wrap items-center justify-between mx-auto p-4">
+
+                <a href="https://flowbite.com/" class="flex items-center">
+                    <img src="/Image/Logo (1).png" class="hidden lg:block" alt="Flowbite Logo">
+                    <img src="/Image/mobile logo image.jfif" class="lg:hidden ml-0" alt="Flowbite Logo">
+
+                </a>
+                <div class="flex md:order-2  gap-[22px]">
+
+                    <button>
+                        <i class="fa-solid fa-sun text-[20px] "></i>
+                    </button>
+
+                    <button type="button" class="text-white hidden lg:block text-[16px] hover:text-white bg-[#B81C58] border
+                        rounded-[15px] px-[24px] py-[16px] font-medium
+                       ">Get
+                        started </button>
+                    <button data-collapse-toggle="navbar-sticky" type="button"
+                        class="inline-flex items-center p-2 text-lg text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-sticky">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-[30px] h-[30px]" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
+                    <ul class="flex gap-[40px] text-[20px] navul font-medium ">
+                        <li class="hover:text-[#B81C58]">Home </li>
+                        <li class="hover:text-[#B81C58]">Service</li>
+                        <li class="hover:text-[#B81C58]">About us </li>
+                        <li class="hover:text-[#B81C58]">Blogs </li>
+                        <li class="hover:text-[#B81C58]">Our success </li>
+                    </ul>
+                </div>
+            </div> -->
+        </nav>
+
+
+        <!-- navbar end -->
+        <!-- hero section start -->
+        <div
+            class="mx-[150] herosection  gap-[72px] flex flex-col-reverse lg:flex-row  items-center justify-between mt-[50px] ">
+            <!-- content  -->
+            <div class="space-y-[22px] lg:pt-[180px] lg:pl-[70px] lg:pb-[163px]">
+                <div class="text-center lg:text-left">
+                    <h1 class="text-[40px] md:text-[57px] font-bold text-[40px]">
+                        Make the <br>
+                        difference in the <br>
+                        lives of others
+                    </h1>
+                </div>
+                <div class="text-center  lg:text-left">
+                    <p class="text-[16px]  ">
+                        Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. In lobortis <br> dui consequat,
+                        mattis quam
+                        eu
+                    </p>
+                </div>
+                <div class="text-center lg:text-left pb-10">
+                    <button
+                        class="bg-[#B81C58] text-white text-[16px] border py-[16px] px-[24px] rounded-[15px] font-medium">Get
+                        an
+                        Appoinment <i class="fa-regular fa-calendar-check ml-[13px]"></i></button>
+                </div>
+            </div>
+            <!-- images -->
+            <div class="mt-10">
+                <img class="lg:pb-[70px] lg:pt-[21px]" src="/Image/Hero Image,.png" alt="">
+            </div>
+
+        </div>
+    </section>
+    <!-- CARD SECTION START -->
+    <section class="mt-[50px] lg:mt-[130px] bg-[#FAE2EB] py-[48px] ">
+        <div class=" max-w-[1511px] mx-auto lg:px-[150px]">
+            <!-- content  -->
+            <div class="text-center space-y-[10px]   lg:pt-[100px]">
+                <h1 class="text-[#B81C58] lg:text-[55px] md:text-[40px] text-[30px] font-semibold">Services</h1>
+                <p class="lg:mt-[22px] mt-[20px] ">Lorem Ipsum is simply dummy text of the <br>
+                    printing and typesetting industry. Lorem<br class="lg:hidden"> Ipsum has been</p>
+            </div>
+            <!-- CARD SECTIOION START -->
+            <div
+                class=" container  lg:grid lg:grid-cols-3   lg:gap-[20px] mt-[22px]  mx-auto lg:mt-[50px] lg:pb-[100px]">
+                <!-- SINGLE CARD START -->
+                <div class="m-[10px] mb-[16px]">
+                    <div>
+                        <img class="w-full" src="/Image/Rectangle 30 (1).png" alt="">
+                    </div>
+                    <div class="space-y-[16px] px-[30px] py-[30px] bg-white rounded-b-[30px]">
+                        <h2 class="text-[#B81C58] text-[24px] card-h1 font-semibold">Thalassemia</h2>
+                        <p class="text-[16px]">Lorem Ipsum is simply dummy <br>
+                            text of the printing and typesetting</p>
+                        <div>
+                            <button class="bg-[#FFE9F1] text-[#B81C58]
+                    text-[16px]
+                     lg:px-[17px] py-[10px] px-[14px]
+                    hover:text-white hover:bg-[#B81C58] rounded-[10px] font-medium">Learn
+                                more <i class=" ml-[13px] fa-solid fa-arrow-right text-[12px]"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- SINGLE CARD END -->
+                <!-- SINGLE CARD START -->
+                <div class="m-[10px] mb-[16px]">
+                    <div>
+                        <img class="w-full" src="/Image/Rectangle 30 (2).png" alt="">
+                    </div>
+                    <div class="space-y-[16px] px-[30px] py-[30px] bg-white rounded-b-[30px]">
+                        <h2 class="text-[#B81C58] text-[24px] card-h1 font-semibold">Thalassemia</h2>
+                        <p class="text-[16px]">Lorem Ipsum is simply dummy <br>
+                            text of the printing and typesetting</p>
+                        <div>
+                            <button class="bg-[#FFE9F1] text-[#B81C58]
+                    text-[16px]
+                     lg:px-[17px] py-[10px] px-[14px]
+                    hover:text-white hover:bg-[#B81C58] rounded-[10px] font-medium">Learn
+                                more <i class=" ml-[13px] fa-solid fa-arrow-right text-[12px]"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- SINGLE CARD END -->
+                <!-- SINGLE CARD START -->
+                <div class="m-[10px] mb-[16px]">
+                    <div>
+                        <img class="w-full" src="/Image/Rectangle 30 (3).png" alt="">
+                    </div>
+                    <div class="space-y-[16px] px-[30px] py-[30px] bg-white rounded-b-[30px]">
+                        <h2 class="text-[#B81C58] text-[24px] card-h1 font-semibold">Thalassemia</h2>
+                        <p class="text-[16px]">Lorem Ipsum is simply dummy <br>
+                            text of the printing and typesetting</p>
+                        <div>
+                            <button class="bg-[#FFE9F1] text-[#B81C58]
+                    text-[16px]
+                     lg:px-[17px] py-[10px] px-[14px]
+                    hover:text-white hover:bg-[#B81C58] rounded-[10px] font-medium">Learn
+                                more <i class=" ml-[13px] fa-solid fa-arrow-right text-[12px]"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- SINGLE CARD END -->
+                <!-- SINGLE CARD START -->
+                <div class="m-[10px] mb-[16px]">
+                    <div>
+                        <img class="w-full" src="/Image/Rectangle 30 (4).png" alt="">
+                    </div>
+                    <div class="space-y-[16px] px-[30px] py-[30px] bg-white rounded-b-[30px]">
+                        <h2 class="text-[#B81C58] text-[24px] card-h1 font-semibold">Thalassemia</h2>
+                        <p class="text-[16px]">Lorem Ipsum is simply dummy <br>
+                            text of the printing and typesetting</p>
+                        <div>
+                            <button class="bg-[#FFE9F1] text-[#B81C58]
+                    text-[16px]
+                     lg:px-[17px] py-[10px] px-[14px]
+                    hover:text-white hover:bg-[#B81C58] rounded-[10px] font-medium">Learn
+                                more <i class=" ml-[13px] fa-solid fa-arrow-right text-[12px]"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- SINGLE CARD END -->
+                <!-- SINGLE CARD START -->
+                <div class="m-[10px] mb-[16px]">
+                    <div>
+                        <img class="w-full" src="/Image/Rectangle 30 (5).png" alt="">
+                    </div>
+                    <div class="space-y-[16px] px-[30px] py-[30px] bg-white rounded-b-[30px]">
+                        <h2 class="text-[#B81C58] text-[24px] card-h1 font-semibold">Thalassemia</h2>
+                        <p class="text-[16px]">Lorem Ipsum is simply dummy <br>
+                            text of the printing and typesetting</p>
+                        <div>
+                            <button class="bg-[#FFE9F1] text-[#B81C58]
+                    text-[16px]
+                     lg:px-[17px] py-[10px] px-[14px]
+                    hover:text-white hover:bg-[#B81C58] rounded-[10px] font-medium">Learn
+                                more <i class=" ml-[13px] fa-solid fa-arrow-right text-[12px]"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- SINGLE CARD END -->
+                <!-- SINGLE CARD START -->
+                <div class="m-[10px] mb-[16px]">
+                    <div>
+                        <img class="w-full" src="/Image/Rectangle 30 (1).png" alt="">
+                    </div>
+                    <div class="space-y-[16px] px-[30px] py-[30px] bg-white rounded-b-[30px]">
+                        <h2 class="text-[#B81C58] text-[24px] card-h1 font-semibold">Thalassemia</h2>
+                        <p class="text-[16px]">Lorem Ipsum is simply dummy <br>
+                            text of the printing and typesetting</p>
+                        <div>
+                            <button class="bg-[#FFE9F1] text-[#B81C58]
+                    text-[16px]
+                     lg:px-[17px] py-[10px] px-[14px]
+                    hover:text-white hover:bg-[#B81C58] rounded-[10px] font-medium">Learn
+                                more <i class=" ml-[13px] fa-solid fa-arrow-right text-[12px]"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- SINGLE CARD END -->
+
+
+
+            </div>
+        </div>
+
+        <!-- CARD SECTION END -->
+    </section>
+    <!-- NEED AN APPOINTMENT SECTION START -->
+    <section class="lg:px-[150px] mt-[48px] mx-auto max-w-[1511px]">
+        <div class=" mx-[10px] lg:flex justify-between rounded-[56px] lg:items-center lg:my-[130px]  bg-[#A83460] ">
+            <div class="lg:px-[83px] px-[47px] pt-[40px] lg:py-[66px]">
+                <h1 class="text-white text-[36px] font-semibold text-center">Need an Appointment?</h1>
+            </div>
+            <div class="lg:px-[83px] text-center justify-center flex items-center lg:pt-[50px] pt-[20px] pb-[40px]">
+                <button class=" px-[24px] py-[16px] bg-white rounded-[15px] text-[#B81C58] font-medium">
+                    Get an Appointment <i class="ml-[13px] fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- NEED AN APPOINTMENT SECTION START -->
+
+    <!-- WHY CHOOICE SECTION START -->
+    <section class="max-w-[1512px] mx-auto pt-[48px] lg:px-[150px]">
+        <div class="lg:flex lg:justify-between flex flex-col-reverse lg:flex-row items-center">
+            <div class="mt-[22px]">
+                <h2 class="font-semibold text-[45px] text-[#B81C58]">Why Choose <br>
+                    Dr. Arif Ur Rahman?</h2>
+                <p class="text-wrap mt-[22px]">
+                    Lorem Ipsum is simply dummy text of the printinga <br>
+                    and typesetting industry. Lorem Ipsum has beenaa<br>
+                    the industry's standard dummy text ever since the<br>
+                    1500s, when an unknown printer took a galley of tp<br>
+                    and scrambled it to make a type specimen book. I<br>
+                    has survived not only five.
+                </p>
+                <div>
+                    <button class=" mt-[22px] text-white
+                    text-[16px]
+                     px-[24px] py-[16px] 
+                    bg-[#B81C58] rounded-[10px] font-medium">Learn
+                        more<i class=" ml-[13px] fa-solid fa-arrow-right text-[12px]"></i></button>
+                </div>
+            </div>
+            <div>
+                <img class="w-full mx-[10px]" src="/Image/Rectangle 72.png">
+
+            </div>
+        </div>
+    </section>
+    <!-- HOW PATINENT TALKS SECTION START -->
+    <section class=" mx-auto lg:mt-[130px] mt-[48px] max-w-[1511px]">
+        <!-- text content start -->
+        <div class="text-center ">
+            <h1 class="font-semibold text-[45px] text-[#B81C58]"> How Patients Talk About Us</h1>
+            <p class="text-[16px] mt-[22px]">Lorem Ipsum is simply dummy text of the printing and typesetting
+                <br> industry.
+                Lorem Ipsum has been
+            </p>
+        </div>
+    </section>
+    <!-- HOW PATINENT TALKS SECTION END -->
+
+
+    <!-- PATIENT COMMENT SECTION START -->
+    <!-- <section class="w-[1511px] px-[150px] mx-auto"> -->
+    <div class=" max-w-[1511px] mx-auto px-[10px] lg:px-[150px]  ">
+        <div class="lg:flex gap-[30px] mt-[50px]  ">
+            <div class=" lg:w-1/2 bg-[#FBE8EF] rounded-[30px] ">
+                <div class="flex justify-center pt-[48px]">
+                    <img src="/Image/Ellipse 1.png" alt="">
+
+                </div>
+                <div class="text-center px-[130px] pt-[32px] pb-[48px]">
+                    <p class="">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.
+                        Lorem <br> Ipsum
+                        has been the.</p>
+                    <p class=" mt-[12px] font-semibold text-[16px] text-[#B81C58]"> Name here</p>
+                    <p>Businessman</p>
+                </div>
+            </div>
+            <div class="lg:w-1/2 mt-4">
+                <!-- ANOTHER SIDE CARD -->
+                <div class="bg-[#FBE8EF] lg:flex gap-[32px] px-[66px] py-[40px] rounded-[30px]">
+                    <div>
+                        <img src="/Image/Ellipse 1 (1).png" alt="">
+                    </div>
+                    <div>
+                        <p>Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry. Lorem <br>
+                            Ipsum has
+                            been the.</p>
+                        <p class=" mt-[12px]  font-semibold text-[16px] text-[#B81C58]">Name here</p>
+                        <p>Businessman</p>
+                    </div>
+                </div>
+                <div class="bg-[#FBE8EF] lg:flex  gap-[32px] px-[66px] py-[40px] rounded-[30px] mt-[30px]">
+                    <div>
+                        <img src="/Image/Ellipse 1 (1).png" alt="">
+                    </div>
+                    <div>
+                        <p>Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry. Lorem <br>
+                            Ipsum has
+                            been the.</p>
+                        <p class=" mt-[12px]  font-semibold text-[16px] text-[#B81C58]">Name here</p>
+                        <p>Businessman</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class=" md:hidden mt-[18px] flex gap-[10px] justify-center">
+            <a href="">
+                <div class="bg-[#FFDFEB] h-[10px] w-[10px] rounded-full"></div>
+            </a>
+            <a href="">
+                <div class="bg-[#B81C58] h-[10px] w-[10px] rounded-full"></div>
+            </a>
+            <a href="">
+                <div class="bg-[#FFDFEB] h-[10px] w-[10px] rounded-full"></div>
+            </a>
+        </div>
+    </div>
+    </section>
+    <!-- PATIENT COMMENT SECTION END -->
+
+    <!-- BLOGS OF HEMATOLOGY SECTION START -->
+    <section class="max-w-[1512px] mx-auto lg:px-[150px] mt-[48px] lg:mt-[130px] ">
+        <h1 class="font-semibold lg:text-left text-center text-[#B81C58] text-[45px]">Blogs of Haematology</h1>
+        <div class=" lg:flex text-center lg:text-left  lg:items-center justify-between mt-[18px]">
+            <div>
+                <p class="text-[16px]">Lorem Ipsum is simply dummy text of the <br>
+                    printing and typesetting industry. Lorem Ipsum has been</p>
+            </div>
+            <div>
+                <button class=" mt-[22px] text-white
+                    text-[16px]
+                     px-[24px] py-[16px] 
+                    bg-[#B81C58] rounded-[10px] font-medium">View All<i
+                        class=" ml-[13px] fa-solid fa-arrow-right text-[12px]"></i></button>
+            </div>
+        </div>
+        <!-- CARD SECTION START -->
+        <div class="lg:grid lg:grid-cols-3 gap-[20px] mt-[48px] lg:mt-[50px]">
+            <!-- SINGLE CARD SECTION START -->
+            <div class="mx-[10px] mb-[16px]">
+                <div>
+                    <img class="w-full" src="/Image/Rectangle 30 (1).png" alt="">
+                </div>
+                <div class="space-y-[16px] px-[30px] py-[30px] bg-[#FFFFFF] rounded-b-[30px] card-shadow">
+                    <h2 class="text-[#B81C58] text-[24px] card-h1 font-semibold">Cancer isn’t a fair!!</h2>
+                    <p class="lg:mt-[22px] mt-[20px] ">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting<br>
+                    </p>
+                    <div>
+                        <button class="bg-[#FFE9F1] text-[#B81C58]
+                    text-[16px]
+                     px-[17px] py-[10px] 
+                    hover:text-white hover:bg-[#B81C58] rounded-[10px] font-medium">Read
+                            more <i class=" ml-[13px] fa-solid fa-arrow-right text-[12px]"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- SINGLE CARD SECTION END -->
+            <!-- SINGLE CARD SECTION START -->
+            <div class="mx-[10px] mb-[16px]">
+                <div>
+                    <img class="w-full" src="/Image/Rectangle 30 (2).png" alt="">
+                </div>
+                <div class="space-y-[16px] px-[30px] py-[30px] bg-[#FFFFFF] rounded-b-[30px] card-shadow">
+                    <h2 class="text-[#B81C58] text-[24px] card-h1 font-semibold">Cancer isn’t a fair!!</h2>
+                    <p class="lg:mt-[22px] mt-[20px] ">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting<br>
+                    </p>
+                    <div>
+                        <button class="bg-[#FFE9F1] text-[#B81C58]
+                    text-[16px]
+                     px-[17px] py-[10px] 
+                    hover:text-white hover:bg-[#B81C58] rounded-[10px] font-medium">Read
+                            more <i class=" ml-[13px] fa-solid fa-arrow-right text-[12px]"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- SINGLE CARD SECTION END -->
+            <!-- SINGLE CARD SECTION START -->
+            <div class="mx-[10px] mb-[16px]">
+                <div>
+                    <img class="w-full" src="/Image/Rectangle 30 (3).png" alt="">
+                </div>
+                <div class="space-y-[16px] px-[30px] py-[30px] bg-[#FFFFFF] rounded-b-[30px] card-shadow">
+                    <h2 class="text-[#B81C58] text-[24px] card-h1 font-semibold">Cancer isn’t a fair!!</h2>
+                    <p class="text-[16px]">Lorem Ipsum is simply dummy <br>
+                        text of the printing and typesetting</p>
+                    <div>
+                        <button class="bg-[#FFE9F1] text-[#B81C58]
+                    text-[16px]
+                     px-[17px] py-[10px] 
+                    hover:text-white hover:bg-[#B81C58] rounded-[10px] font-medium">Read
+                            more <i class=" ml-[13px] fa-solid fa-arrow-right text-[12px]"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- SINGLE CARD SECTION END -->
+            <!-- Three dot -->
+
+        </div>
+        <!-- TWO ARROW  -->
+        <div class=" mt-[50px] flex justify-center">
+            <div class="flex  gap-[17px]">
+                <button
+                    class=" hover:text-white hover:bg-[#B81C58] text-center text-[#B81C58] border-[#B81C58] w-[48px] h-[48px] border-2 rounded-full">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button
+                    class=" hover:text-white hover:bg-[#B81C58] text-[#B81C58] border-[#B81C58] w-[48px] h-[48px] border-2 rounded-full">
+                    <i class="fa-solid fa-arrow-right "></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER SECTION START -->
+    <section class="lg:w-[1512px] mx-auto lg:px-[150px] lg:mt-[130px] mb-[100px]">
+        <div class="bg-[#FFF8FA] px-[95px] py-[100px] rounded-[30px]">
+            <div class="md:flex cursor-pointer justify-between justify-center  space-y-[20px] mb-[42px] ">
+                <div class=" items-center space-y-[20px] ">
+                    <div class="flex justify-center">
+                        <img src="/Image/Logo (1).png" alt="">
+                    </div>
+                    <div class="text-center">
+                        <p class="text-[16px]">
+                            Clarity gives you the blocks and <br> components you need to create <br> a truly
+                            professional
+                            website.
+                        </p>
+                    </div>
+                    <div class=" md:flex hidden md:block justify-center gap-[18px] ">
+                        <div class="bg-[#B81C58] rounded">
+                            <button class=" rounded text-white bg-[#B81C58] text-[24px] w-[30px] h-[24px]"><i
+                                    class="fa-brands fa-instagram  hover:text-[30px]"></i></button>
+                        </div>
+                        <div class="bg-[#B81C58] rounded">
+                            <button class="text-[24px]  text-white bg-[#B81C58] rounded w-[30px] h-[24px]"><i
+                                    class="fa-brands fa-youtube  hover:text-[30px]"></i></button>
+                        </div>
+                        <div class="bg-[#B81C58] rounded">
+                            <button class="text-[24px] text-white  w-[30px] h-[24px]"><i
+                                    class="fa-brands fa-facebook-f hover:text-[30px] "></i></button>
+                        </div>
+                        <div class="bg-[#B81C58] rounded">
+                            <button class="text-[24px] w-[30px] h-[24px] text-white  "><i
+                                    class="fa-brands fa-linkedin-in hover:text-[30px]"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class=" text-center md:text-left">
+                    <ul class="space-y-[30px] font-semibold">
+                        <li>Company</li>
+                        <li>About</li>
+                        <li>Freature</li>
+                        <li>works</li>
+                        <li>People</li>
+                    </ul>
+                </div>
+                <div class="">
+                    <ul class=" space-y-[30px] text-center md:text-left font-semibold">
+                        <li class=" mt-10 md:mt-0 ">Help</li>
+                        <li>Customer Support</li>
+                        <li>Contact info</li>
+                        <li>Terms & Condition</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <!-- icons for mobile version -->
+                <div class=" mt-[20px] flex md:hidden justify-center gap-[18px] ">
+                    <div class="bg-[#B81C58] rounded">
+                        <button class=" rounded text-white bg-[#B81C58] text-[24px] w-[30px] h-[24px]"><i
+                                class="fa-brands fa-instagram  hover:text-[30px]"></i></button>
+                    </div>
+                    <div class="bg-[#B81C58] rounded">
+                        <button class="text-[24px]  text-white bg-[#B81C58] rounded w-[30px] h-[24px]"><i
+                                class="fa-brands fa-youtube  hover:text-[30px]"></i></button>
+                    </div>
+                    <div class="bg-[#B81C58] rounded">
+                        <button class="text-[24px] text-white  w-[30px] h-[24px]"><i
+                                class="fa-brands fa-facebook-f hover:text-[30px] "></i></button>
+                    </div>
+                    <div class="bg-[#B81C58] rounded">
+                        <button class="text-[24px] w-[30px] h-[24px] text-white  "><i
+                                class="fa-brands fa-linkedin-in hover:text-[30px]"></i></button>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-center md:text-left ">Newsletter</h3>
+                    <div class=" flex justify-center mt-[30px]">
+                        <input class="border-2 border-gray-300 py-[14px] pl-[13px] pr-[44px] rounded-[10px]" type="text"
+                            placeholder="Enter your email address ">
+                    </div>
+                    <div class="mt-[12px] flex justify-center">
+                        <button class="px-[71px] py-[15px]  rounded-[10px] font-medium text-white bg-[#B81C58]">
+                            Subscribe Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="mt-[25px]">
+                <p class="text-center text-[14px]">© Copyright 2022, All Rights Reserved by The YOLO Studio</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+</body>
+
+</html>

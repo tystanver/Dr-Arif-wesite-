@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/e14a2aaf26.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Dr.Arif</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+    <main class="lg:max-w-[1512px] mx-auto lg:px-[148px] px-[10px]">
+
+
+
+
+        <!-- nav section start -->
+        <section class="bg-#f8fafc"></section>
+
+        <nav
+            class="bg-white dark:bg-gray-900  w-full z-20 top-0 left-0 ">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="/" class="flex items-center">
+                    <img src="/logo.png" class="lg:block hidden " alt="dr. Arif Logo">
+                    <img src="/WhatsApp Image 2023-05-09 at 9.03.16 PM (1).jpeg" class=" lg:hidden "
+                        alt="dr. Arif Logo">
+                </a>
+                <div class="flex md:order-2">
+                    <i class="fa-regular fa-sun mt-3" style="color: #000000;"></i>
+                    <button type="button"
+                        class="font-bold ml-[22px] bg-[#be185d] text-white font-Poppins duration-500 px-6 py-2 mx-4 hover:bg-[#FFE9F1] hover:text-black rounded-xl hidden md:block">Appointment</button>
+
+                    <button data-collapse-toggle="navbar-sticky" type="button"
+                        class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-sticky" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                    <ul
+                        class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        <li>
+                            <a href="#"
+                               class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#B81C58] md:p-0 md:dark:hover:text-[#B81C58] text-xl dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#B81C58] md:p-0 md:dark:hover:text-blue-500 text-xl dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Service</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#B81C58] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-xl">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#B81C58] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-xl">About</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#B81C58] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-xl">Our
+                                Success</a>
+                        </li>
+                       
+
+                        <li>
+                            <button type="button"
+                                class="font-bold bg-[#be185d] text-white font-Poppins duration-500 px-6 py-2 hover:bg-[#FFE9F1] hover:text-black rounded-xl block md:hidden">Appointment</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- <nav class="bg-white dark:bg-gray-900  w-full z-20 top-0 left-0 mt-[63px] ">
+            <div class=" flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="https://flowbite.com/" class="flex lg:flex-col items-center">
+                    <img src="/logo.png" class="lg:block hidden " alt="dr. Arif Logo">
+                    <img src="/WhatsApp Image 2023-05-09 at 9.03.16 PM (1).jpeg" class=" lg:hidden "
+                        alt="dr. Arif Logo">
+                
+                </a>
+                <div class="flex md:order-2">
+                    <i class="fa-regular fa-sun mt-3" style="color: #000000;"></i>
+                    <button type="button"
+                        class="font-bold ml-[22px] bg-[#be185d] text-white font-Poppins duration-500 px-6 py-2 mx-4 hover:bg-[#FFE9F1] hover:text-black rounded-xl ">Appointment</button>
+                    <button data-collapse-toggle="navbar-sticky" type="button"
+                        class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-sticky" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+
+
+                    <ul
+                        class="flex flex-col   md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        <li>
+                            <a href="#"
+                                class="block   text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#be185d] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-xl"
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#be185d] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-xl">Service</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#be185d] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-xl">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#be185d] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-xl">About
+                                Us</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#be185d] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-xl">Our
+                                Success</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav> -->
+       
+
+        </section>
+
+        <!-- nav section end -->
+
+
+        <!-- banner section start -->
+
+
+        <section class=" mt-[50px]">
+            <div
+                class=" px-3 rounded-[50px] md:flex items-center justify-around banner border border-[0.2px] border-[#B81C58]  bg-[url('./a.jpeg')]">
+                <div class="lg:mt-0 mt-[30px] lg:block hidden">
+                    <div class="flex items-center gap-[14px] ">
+                        <p>Home</p>
+                        <i class="fa-solid fa-arrow-right" style="color: #B81C58;"></i>
+                        <p>Blogs</p>
+                    </div>
+
+                    <h1 class="font-bold font-Poppins text-[57px] leading-[64px] py-[22px]">See Our Blogs<br> & Resource
+                    </h1>
+                    <div>
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In <br>lobortis dui
+                            consequat, mattis quam eu</p>
+                    </div>
+                </div>
+
+
+                <div class="flex justify-center">
+                    <img src="/Hero Image.png" alt="">
+                </div>
+
+
+            </div>
+            <div class="lg:mt-0 mt-[30px] lg:hidden block text-center">
+                <div class="flex justify-center  gap-[14px] ">
+                    <p>Home <i class="fa-solid fa-arrow-right" style="color: #000000;"></i></p>
+                    
+                    <p>Blogs</p>
+                </div>
+
+                <h1 class="font-bold font-Poppins text-[57px] leading-[64px] py-[22px]">See Our Blogs<br> & Resource
+                </h1>
+                <div>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In <br>lobortis dui consequat,
+                        mattis quam eu</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- banner section end -->
+
+        <!-- Blogs of Haematology section start -->
+
+
+        <section class="bg-#f8fafc lg:mt-[140px] mt-[50px]">
+            <h1 class="font-bold font-Poppins lg:text-[57px] text-[45px] text-center text-[#B81C58] leading-[45px]">Blogs of
+                Haematology</h1>
+            <p class="font-Poppins text-[16px] text-center lg:mt-[18px] p-[20px] font-normal">Lorem Ipsum is simply
+                dummy text of the printing and typesetting
+                <br>industry. Lorem Ipsum has been
+            </p>
+
+            <div class="grid lg:grid-cols-3 gap-7 mt-[50px]">
+
+                <div class="shadow-lg rounded-2xl   ">
+
+                    <img class="w-full" src="/card Image 1.png">
+
+                    <div class="p-[30px]">
+
+                        <h3 class="font-bold font-Poppins text-[24px]  text-[#B81C58]">Cancer isn’t a fair!!</h3>
+                        <p class="font-Poppins my-4  ">Lorem Ipsum is simply dummy<br>
+                            text of the printing and typesetting</p>
+                        <button
+                            class=" font-bold bg-[#FFE9F1] text-[#B81C58] font-Poppins duration-500 px-6 py-2  hover:bg-[#B81C58] rounded-xl hover:text-white">Read
+                            More <i class="ml-1 fa-solid fa-arrow-right"></i></button>
+                    </div>
+
+                </div>
+                <div class="shadow-lg rounded-2xl  ">
+
+                    <img class="w-full" src="/card Image 2.png">
+
+                    <div class="p-[30px]">
+
+                        <h3 class="font-bold font-Poppins text-[24px]  text-[#B81C58]">Don’t afraid in seek</h3>
+                        <p class="font-Poppins my-4  ">Lorem Ipsum is simply dummy<br>
+                            text of the printing and typesetting</p>
+                        <button
+                            class=" font-bold bg-[#FFE9F1] text-[#B81C58] font-Poppins duration-500 px-6 py-2  hover:bg-[#B81C58] rounded-xl hover:text-white">Read
+                            More <i class="ml-1 fa-solid fa-arrow-right"></i></button>
+                    </div>
+
+                </div>
+                <div class="shadow-lg rounded-2xl  ">
+
+                    <img class="w-full" src="/card Image 3.png">
+
+                    <div class="p-[30px]">
+
+                        <h3 class="font-bold font-Poppins text-[24px]  text-[#B81C58]">What is Thalasemia?</h3>
+                        <p class="font-Poppins my-4  ">Lorem Ipsum is simply dummy<br>
+                            text of the printing and typesetting</p>
+                        <button
+                            class=" font-bold bg-[#FFE9F1] text-[#B81C58] font-Poppins duration-500 px-6 py-2  hover:bg-[#B81C58] rounded-xl hover:text-white">Read
+                            More <i class="ml-1 fa-solid fa-arrow-right"></i></button>
+                    </div>
+
+                </div>
+                <div class="shadow-lg rounded-2xl  ">
+
+                    <img class="w-full" src="/card Image 1.png">
+
+                    <div class="p-[30px]">
+
+                        <h3 class="font-bold font-Poppins text-[24px]  text-[#B81C58]">Cancer isn’t a fair!!</h3>
+                        <p class="font-Poppins my-4  ">Lorem Ipsum is simply dummy<br>
+                            text of the printing and typesetting</p>
+                        <button
+                            class=" font-bold bg-[#FFE9F1] text-[#B81C58] font-Poppins duration-500 px-6 py-2  hover:bg-[#B81C58] rounded-xl hover:text-white">Read
+                            More <i class="ml-1 fa-solid fa-arrow-right"></i></button>
+                    </div>
+
+                </div>
+                <div class="shadow-lg rounded-2xl  ">
+
+                    <img class="w-full" src="/card Image 2.png">
+
+                    <div class="p-[30px]">
+
+                        <h3 class="font-bold font-Poppins text-[24px]  text-[#B81C58]">Don’t afraid in seek</h3>
+                        <p class="font-Poppins my-4  ">Lorem Ipsum is simply dummy<br>
+                            text of the printing and typesetting</p>
+                        <button
+                            class="font-bold  bg-[#FFE9F1] text-[#B81C58] font-Poppins duration-500 px-6 py-2  hover:bg-[#B81C58] rounded-xl hover:text-white">Read
+                            More <i class="ml-1 fa-solid fa-arrow-right"></i></button>
+                    </div>
+
+                </div>
+                <div class="shadow-lg rounded-2xl  ">
+
+                    <img class="w-full" src="/card Image 3.png">
+
+                    <div class="p-[30px]">
+
+                        <h3 class="font-bold font-Poppins text-[24px]  text-[#B81C58]">What is Thalasemia?</h3>
+                        <p class="font-Poppins my-4  ">Lorem Ipsum is simply dummy<br>
+                            text of the printing and typesetting</p>
+                        <button
+                            class=" font-bold bg-[#FFE9F1] text-[#B81C58] font-Poppins duration-500 px-6 py-2  hover:bg-[#B81C58] rounded-xl hover:text-white">Read
+                            More <i class="ml-1 fa-solid fa-arrow-right"></i></button>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <div class="text-center mt-[50px]">
+
+                <button
+                    class=" font-bold bg-[#FFE9F1] text-[#B81C58] font-Poppins duration-500 px-6 py-2  hover:bg-[#B81C58] rounded-xl hover:text-white ">View
+                    More <i class=" ml-3 fa-solid fa-caret-down "></i></button>
+            </div>
+
+        </section>
+
+        <!-- Blogs of Haematology section end -->
+
+        <!-- Need an Appointment  section start -->
+
+
+
+
+        <section>
+            <div
+                class="bg-[#A83460] rounded-[56px] lg:flex justify-between font-Poppins lg:px-[83px] py-[63px] lg:mt-[156px] mx-[10px] mt-[102px] ">
+                <p class="text-[36px] text-white font-semibold text-center">Need an Appointment ?</p>
+
+                <div class=" text-center">
+                    <button
+                        class="font-bold lg:ml-20 bg-white text-[#be185d] font-Poppins duration-500 px-6 py-2 mx-4 hover:bg-[#FFE9F1] hover:text-[#A83460] rounded-xl mt-[22px]  ">Get
+                        an Appointment <i class="ml-1 fa-solid fa-arrow-right"></i> </button>
+                </div>
+
+            </div>
+
+
+        </section>
+        <!-- Need an Appointment  section end-->
+
+        <!-- Blogs of Blood Cancer  section start -->
+
+        <section class="bg-#f8fafc lg:mt-[140px] mt-[62px]">
+            <h1 class="font-bold font-Poppins lg:text-[57px] text-[45px] text-center text-[#B81C58] leading-[45px]">Blogs of Blood
+                Cancer</h1>
+            <p class="font-Poppins text-[16px] text-center lg:mt-[18px] p-[20px] font-normal">Lorem Ipsum is simply
+                dummy text of the printing and typesetting
+                <br>industry. Lorem Ipsum has been
+            </p>
+
+            <div class="grid lg:grid-cols-3 gap-7 mt-[50px]">
+
+                <div class="shadow-lg rounded-2xl mx-[10px] ">
+
+                    <img class="w-full" src="/card Image 1.png">
+
+                    <div class="p-[30px]">
+
+                        <h3 class="font-bold font-Poppins text-[24px]  text-[#B81C58]">Cancer isn’t a fair!!</h3>
+                        <p class="font-Poppins my-4  ">Lorem Ipsum is simply dummy<br>
+                            text of the printing and typesetting</p>
+                        <button
+                            class=" font-bold bg-[#FFE9F1] text-[#B81C58] font-Poppins duration-500 px-6 py-2  hover:bg-[#B81C58] rounded-xl hover:text-white">Read
+                            More <i class="ml-1 fa-solid fa-arrow-right"></i></button>
+                    </div>
+
+                </div>
+                <div class="shadow-lg rounded-2xl  ">
+
+                    <img class="w-full" src="/card Image 2.png">
+
+                    <div class="p-[30px]">
+
+                        <h3 class="font-bold font-Poppins text-[24px]  text-[#B81C58]">Don’t afraid in seek</h3>
+                        <p class="font-Poppins my-4  ">Lorem Ipsum is simply dummy<br>
+                            text of the printing and typesetting</p>
+                        <button
+                            class=" font-bold bg-[#FFE9F1] text-[#B81C58] font-Poppins duration-500 px-6 py-2  hover:bg-[#B81C58] rounded-xl hover:text-white">Read
+                            More <i class="ml-1 fa-solid fa-arrow-right"></i></button>
+                    </div>
+
+                </div>
+                <div class="shadow-lg rounded-2xl  ">
+
+                    <img class="w-full" src="/card Image 3.png">
+
+                    <div class="p-[30px]">
+
+                        <h3 class="font-bold font-Poppins text-[24px]  text-[#B81C58]">What is Thalasemia?</h3>
+                        <p class="font-Poppins my-4  ">Lorem Ipsum is simply dummy<br>
+                            text of the printing and typesetting</p>
+                        <button
+                            class="font-bold  bg-[#FFE9F1] text-[#B81C58] font-Poppins duration-500 px-6 py-2  hover:bg-[#B81C58] rounded-xl hover:text-white">Read
+                            More <i class="ml-1 fa-solid fa-arrow-right"></i></button>
+                    </div>
+
+                </div>
+                <div class="shadow-lg rounded-2xl  ">
+
+                    <img class="w-full" src="/card Image 1.png">
+
+                    <div class="p-[30px]">
+
+                        <h3 class="font-bold font-Poppins text-[24px]  text-[#B81C58]">Cancer isn’t a fair!!</h3>
+                        <p class="font-Poppins my-4  ">Lorem Ipsum is simply dummy<br>
+                            text of the printing and typesetting</p>
+                        <button
+                            class=" font-bold bg-[#FFE9F1] text-[#B81C58] font-Poppins duration-500 px-6 py-2  hover:bg-[#B81C58] rounded-xl hover:text-white">Read
+                            More <i class="ml-1 fa-solid fa-arrow-right"></i></button>
+                    </div>
+
+                </div>
+                <div class="shadow-lg rounded-2xl  ">
+
+                    <img class="w-full" src="/card Image 2.png">
+
+                    <div class="p-[30px]">
+
+                        <h3 class="font-bold font-Poppins text-[24px]  text-[#B81C58]">Don’t afraid in seek</h3>
+                        <p class="font-Poppins my-4  ">Lorem Ipsum is simply dummy<br>
+                            text of the printing and typesetting</p>
+                        <button
+                            class="font-bold  bg-[#FFE9F1] text-[#B81C58] font-Poppins duration-500 px-6 py-2  hover:bg-[#B81C58] rounded-xl hover:text-white">Read
+                            More <i class="ml-1 fa-solid fa-arrow-right"></i></button>
+                    </div>
+
+                </div>
+                <div class="shadow-lg rounded-2xl  ">
+
+                    <img class="w-full" src="/card Image 3.png">
+
+                    <div class="p-[30px]">
+
+                        <h3 class="font-bold font-Poppins text-[24px]  text-[#B81C58]">What is Thalasemia?</h3>
+                        <p class="font-Poppins my-4  ">Lorem Ipsum is simply dummy<br>
+                            text of the printing and typesetting</p>
+                        <button
+                            class="font-bold  bg-[#FFE9F1] text-[#B81C58] font-Poppins duration-500 px-6 py-2  hover:bg-[#B81C58] rounded-xl hover:text-white">Read
+                            More <i class="ml-1 fa-solid fa-arrow-right"></i></button>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <div class="text-center mt-[50px]">
+
+                <button
+                    class=" font-bold bg-[#FFE9F1] text-[#B81C58] font-Poppins duration-500 px-6 py-2  hover:bg-[#B81C58] rounded-xl hover:text-white ">View
+                    More <i class="ml-3 fa-solid fa-caret-down "></i></button>
+            </div>
+
+        </section>
+
+        <!-- footer section -->
+        <!-- <section>
+            <div class="bg-[#FFF8FA]   font-Poppins px-[100px] py-[100px] mt-[140px]">
+                <div class="flex justify-between"> 
+                    <div class="">
+                        <img src="/logo.png" alt="">
+                        <p class="mt-[20px]">Clarity gives you the blocks and <br>components you need to create<br> a truly professional website.</p>
+                        <div class="flex  gap-[18px] mt-[20px]">
+                            <img src="/insta.png" alt="">
+                            <img src="/utube.png" alt="">
+                            <img src="/fb.png" alt="">
+                            <img src="/linkedin.png" alt="">
+    
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="text-[18px] font-semibold space-y-[30px]">
+                            <li>Company</li>
+                            <li>About</li>
+                            <li>Feature</li>
+                            <li>Works</li>
+                            <li>People</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="text-[18px] font-semibold space-y-[30px]">
+                            <li>Help</li>
+                            <li>Customer Support</li>
+                            <li>Contact Info</li>
+                            <li>Terms and Condition</li>
+                            <li>Private Policy</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>News Sletter</p>
+                        <lebel for="Username" class="block text-base mb-2">
+                            
+                        </lebel>
+                        <input type="text" id="email" class="rounded-[10px] border w-full text text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-grey 600 " placeholder=" Enter your email address  "> 
+                        <button class=" bg-[#FFE9F1] text-[#B81C58] font-Poppins duration-500 px-6 py-2  hover:bg-[#B81C58] rounded-xl hover:text-white ">View More <i class="fa-solid fa-caret-down "></i></button>
+                    </div>
+                </div>
+
+               
+                    
+
+                    
+                </div>
+
+            </div>
+        </section> -->
+        <section class="  lg:mt-[130px] mb-[63px] mt-[50px] ">
+            <div class="bg-[#FFF8FA] lg:px-[95px] lg:py-[100px]  rounded-[30px]">
+                <div class="lg:flex justify-between mb-[42px] text-center">
+                    <div class="space-y-[20px]">
+                        <div class="flex justify-center lg:justify-start">
+                            <img src="/logo.png" alt="">
+                        </div>
+                        <div>
+                            <p class="text-[16px]">
+                                Clarity gives you the blocks and <br> components you need to create <br> a truly
+                                professional
+                                website.
+                            </p>
+                        </div>
+                        <div class="lg:flex gap-[18px] lg:block hidden ">
+                            <div class="bg-[#B81C58] rounded">
+                                <button class=" rounded text-white bg-[#B81C58] text-[24px] w-[30px] h-[24px]"><i
+                                        class="fa-brands fa-instagram  hover:text-[30px]"></i></button>
+                            </div>
+                            <div class="bg-[#B81C58] rounded">
+                                <button class="text-[24px]  text-white bg-[#B81C58] rounded "><i
+                                        class="fa-brands fa-youtube px-1  "></i></button>
+                            </div>
+                            <div class="bg-[#B81C58] rounded">
+                                <button class="text-[24px] text-white  w-[30px] h-[24px]"><i
+                                        class="fa-brands fa-facebook-f hover:text-[30px] "></i></button>
+                            </div>
+                            <div class="bg-[#B81C58] rounded">
+                                <button class="text-[24px] w-[30px] h-[24px] text-white  "><i
+                                        class="fa-brands fa-linkedin-in hover:text-[30px]"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="space-y-[30px] font-semibold my-3">
+                            <li>Company</li>
+                            <li>About</li>
+                            <li>Freature</li>
+                            <li>works</li>
+                            <li>People</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="space-y-[30px] font-semibold  ">
+                            <li>Help</li>
+                            <li>Customer Support</li>
+                            <li>Contact info</li>
+                            <li>Terms & Condition</li>
+                            <li>Privacy Policy</li>
+                            <div class="block lg:hidden">
+
+                                <div class="flex  gap-[18px]  justify-center">
+                                    <img src="/insta.png" alt="">
+                                    <img src="/utube.png" alt="">
+                                    <img src="/fb.png" alt="">
+                                    <img src="/linkedin.png" alt="">
+
+                                </div>
+
+                        </ul>
+                    </div>
+                    <div class="px-[54px] lg:px-0">
+
+                        <ul class="font-semibold  ">
+                            <li>Newsletter</li>
+                        </ul>
+                        <div class="mt-[30px]">
+                            <input class="border-2 border-gray-300 py-[14px] pl-[13px] pr-[44px] rounded-[10px] w-full"
+                                type="text" placeholder="Enter your email address ">
+                        </div>
+                        <div class="mt-[12px]">
+                            <button
+                                class="w-full lg:px-[71px] px-5 py-[15px]  rounded-[10px] font-medium text-white bg-[#B81C58]">
+                                Subscribe Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-[25px] border-[#9F9599]  border-t-2">
+                    <p class="text-center text-[14px] mt-4 ">© Copyright 2022, All Rights Reserved by The YOLO Studio
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+</body>
+
+</html>
