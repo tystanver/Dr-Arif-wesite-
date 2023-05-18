@@ -28,41 +28,56 @@
 
         <!-- nav section start -->
         <section class="bg-#f8fafc"></section>
-        <nav class="p-35 bg-white lg:flex lg:items-center md:justify-between ">
+        <nav class=" mt-10 justify-between flex items-center justify-between">
             <div>
-                <span>
-                    <img class=" pt-[63px]" src="/about us image/logo.png"></span>
+                <img src="/Image/Logo (1).png" class="hidden lg:block" alt="Flowbite Logo">
+                <img src="/Image/mobile logo image.jfif" class="lg:hidden ml-0" alt="Flowbite Logo">
             </div>
+            <!-- mobile version -->
 
-            <div class="pt-[89px]">
-                <ul class="md:flex md:items-center  font-Poppins gap-[45px]">
-                    <li class="">
-                        <a href="/index.html" class="font-semibold text-xl hover:text-[#be185d]">Home</a>
-                    </li>
-                    <li class=" ">
-                        <a href="" class=" font-semibold text-xl hover:text-[#be185d] duration-500 ">Service</a>
-                    </li>
-                    <li class="">
-                        <a href="/blogs.html" class=" font-semibold text-xl hover:text-[#be185d] duration-500">Blogs</a>
-                    </li>
-                    <li class="">
-                        <a href="#" class="font-semibold text-xl hover:text-[#be185d] duration-500">About Us</a>
-                    </li>
-                    <li class="">
-                        <a href="/our success.html" class="font-semibold text-xl hover:text-[#be185d] duration-500">Our
-                            Success</a>
-                    </li>
-
-
-
-                </ul>
-            </div>
             <div>
-                <i class="fa-regular fa-sun" style="color: #000000;"></i>
+                <div class="items-center justify-between  md:flex  hidden md:w-auto md:order-1">
+                    <ul id="background-div"
+                        class="  p-[200px] gap-[40px] text-[20px] navul space-y-[20px] bg-gray-200 w-full h-screen  font-medium md:hidden fixed top-[0px]  w-full ">
+                        <li class="hover:text-[#B81C58]">Home </li>
+                        <li class="hover:text-[#B81C58]">Service</li>
+                        <li class="hover:text-[#B81C58]">About us </li>
+                        <li class="hover:text-[#B81C58]"><a href="blogs.html">Blogs</a></li>
+                        <li class="hover:text-[#B81C58]"><a href="our success.html">Our success </a></li>
+                    </ul>
+                    <!-- for large device -->
+                    <div class="items-center justify-between hidden md:block  w-full  md:w-auto">
+                        <ul class="flex gap-[40px] text-[20px] navul font-semibold ">
+                            <li class="hover:text-[#B81C58]"> <a href="/index.html">Home</a> </li>
+                            <li class="hover:text-[#B81C58]">Service</li>
+                            <li class="hover:text-[#B81C58]"><a class="text-[#B81C58]" href="about.html">About us</a> </li>
+                            <li class="hover:text-[#B81C58]"><a href="/blogs.html">Blogs</a></li>
+                            <li class="hover:text-[#B81C58]"><a href="our success.html">Our success</a> </li>
+                        </ul>
+                    </div>
+                </div>
 
-                <button
-                    class="font-bold ml-[22px] bg-[#be185d] text-white font-Poppins duration-500 px-6 py-2 mx-4 hover:bg-[#FFE9F1] hover:text-black rounded-xl mt-[74px]">Appointment</button>
+
+
             </div>
+            <div class="md:hidden flex gap-2">
+                <button class="block">
+                    <img src="/Image/Vector.svg" alt="">
+                </button>
+                <button id="hover-btn" class=" text-3xl">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            <div class=" md:flex gap-[22px] hidden md:block ">
+                <button class="">
+                    <img src="/Image/Vector.svg" alt="">
+                </button>
+                <button type="button" class="text-white text-[16px]  bg-[#B81C58] border
+                    rounded-[15px] px-[24px] py-[16px] font-medium hover:bg-[#E1236C]
+                   ">Appointment </button>
+            </div>
+
+
         </nav>
 
 
@@ -231,7 +246,7 @@
 
                 <div class=" text-center">
                     <button
-                        class="font-bold lg:ml-20 bg-white text-[#be185d] font-Poppins duration-500 px-6 py-2 mx-4 hover:bg-[#FFE9F1] hover:text-[#A83460] rounded-xl mt-[22px]  ">Get
+                        class="font-medium lg:ml-20 bg-white text-[#be185d] font-Poppins duration-500 px-6 py-[16px] mx-4 hover:bg-[#FFE9F1] hover:text-[#A83460] rounded-xl mt-[22px]  ">Get
                         an Appointment <i class="ml-1 fa-solid fa-arrow-right"></i> </button>
                 </div>
 
@@ -279,74 +294,99 @@
         <!-- footer section -->
 
         <section class="  mt-[130px] mb-[63px]">
-            <div class="bg-[#FFF8FA] px-[95px] py-[100px]  rounded-[30px]">
-                <div class="flex justify-between mb-[42px] ">
-                    <div class="space-y-[20px]">
+            <div class=" bg-[#FFDAE8] lg:px-[95px] py-[46px] rounded-[30px]">
+                <div
+                    class="md:flex cursor-pointer justify-between justify-center  space-y-[20px] pb-[42px] md:border-b md:border-[#9F9599] ">
+                    <div class="  space-y-[20px] ">
                         <div>
-                            <img src="/about us image/logo.png" alt="">
+                            <div class="hidden md:block">
+                                <img src="/Image/Logo (1).png" alt="">
+                            </div>
+                            <div class=" md:hidden flex  justify-center">
+                                <img src="/Image/Logo (1).png" alt="">
+                            </div>
                         </div>
-                        <div>
-                            <p class="text-[16px]">
+                        <div class="">
+                            <p class="text-[16px] md:block hidden">
+                                Clarity gives you the blocks and <br> components you need to create <br> a truly
+                                professional
+                                website.
+                            </p>
+                            <p class="text-[16px] text-center md:hidden">
                                 Clarity gives you the blocks and <br> components you need to create <br> a truly
                                 professional
                                 website.
                             </p>
                         </div>
-                        <div class="flex gap-[18px] ">
-                            <div class="bg-[#B81C58] rounded">
-                                <button class=" rounded text-white bg-[#B81C58] text-[24px] w-[30px] h-[24px]"><i
-                                        class="fa-brands fa-instagram  hover:text-[30px]"></i></button>
+                        <div class=" md:flex hidden md:block   gap-[18px] ">
+                            <div>
+                                <img src="/Image/last icon ins png.png" alt="">
                             </div>
-                            <div class="bg-[#B81C58] rounded">
-                                <button class="text-[24px]  text-white bg-[#B81C58] rounded "><i
-                                        class="fa-brands fa-youtube px-1  "></i></button>
+                            <div>
+                                <img src="/Image/last icon fb png.png" alt="">
                             </div>
-                            <div class="bg-[#B81C58] rounded">
-                                <button class="text-[24px] text-white  w-[30px] h-[24px]"><i
-                                        class="fa-brands fa-facebook-f hover:text-[30px] "></i></button>
+                            <div>
+                                <img src="/Image/last icon ins png.png" alt="">
                             </div>
-                            <div class="bg-[#B81C58] rounded">
-                                <button class="text-[24px] w-[30px] h-[24px] text-white  "><i
-                                        class="fa-brands fa-linkedin-in hover:text-[30px]"></i></button>
+                            <div>
+                                <img src="/Image/last icon twiter img png.png" alt="">
                             </div>
+
                         </div>
+
+
+
                     </div>
-                    <div>
-                        <ul class="space-y-[30px] font-semibold">
-                            <li>Company</li>
-                            <li><a href="">About</a></li>
+                    <div class=" text-center md:text-left">
+                        <ul class="space-y-[30px] ">
+                            <li class="font-semibold">Company</li>
+                            <li>About</li>
                             <li>Freature</li>
                             <li>works</li>
                             <li>People</li>
                         </ul>
                     </div>
-                    <div>
-                        <ul class="space-y-[30px] font-semibold">
-                            <li>Help</li>
+                    <div class="">
+                        <ul class=" space-y-[30px] text-center md:text-left">
+                            <li class=" mt-10 md:mt-0  font-semibold">Help</li>
                             <li>Customer Support</li>
                             <li>Contact info</li>
                             <li>Terms & Condition</li>
                             <li>Privacy Policy</li>
                         </ul>
                     </div>
+                    <!-- icons for mobile version -->
+                    <div class=" mt-[20px] flex md:hidden justify-center gap-[18px] ">
+                        <div>
+                            <img class=" " src="/Image/last icon ins png.png" alt="">
+                        </div>
+                        <div>
+                            <img src="/Image/last icon fb png.png" alt="">
+                        </div>
+                        <div>
+                            <img src="/Image/last icon ins png.png" alt="">
+                        </div>
+                        <div>
+                            <img src="/Image/last icon twiter img png.png" alt="">
+                        </div>
+                    </div>
                     <div>
-                        <h3 class="font-semibold">Newsletter</h3>
-                        <div class="mt-[30px]">
-                            <input class="border-2 border-gray-300 py-[14px] pl-[13px] pr-[44px] rounded-[10px] w-full"
+                        <h3 class="font-semibold text-center md:text-left ">Newsletter</h3>
+                        <div class=" flex justify-center mt-[30px]">
+                            <input class="border-2 border-gray-300 py-[14px] pl-[13px] pr-[44px] rounded-[10px]"
                                 type="text" placeholder="Enter your email address ">
                         </div>
-                        <div class="mt-[12px]">
+                        <div class="mt-[12px] flex justify-center">
                             <button
-                                class="px-[71px] py-[15px]  rounded-[10px] font-medium text-white bg-[#B81C58] hover:bg-[#FFE9F1] hover:text-[#A83460] duration-500">
+                                class="px-[71px] py-[15px]  hover:bg-[#E1236C]  rounded-[10px] font-medium text-white bg-[#B81C58]">
                                 Subscribe Now
                             </button>
                         </div>
                     </div>
                 </div>
-
-                <div class="mt-[25px] border-[#9F9599]  border-t-2">
-                    <p class="text-center text-[14px] mt-4 ">© Copyright 2022, All Rights Reserved by The YOLO Studio
-                    </p>
+                <hr class="text-red-500">
+                <div class="mt-[25px]">
+                    <p class="text-center text-[14px]">© Copyright 2022, All Rights Reserved by The YOLO Studio</p>
                 </div>
             </div>
         </section>

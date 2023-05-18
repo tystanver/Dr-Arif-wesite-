@@ -24,65 +24,58 @@
         <!-- nav section start -->
         <section class="bg-#f8fafc"></section>
 
-        <nav class="bg-white dark:bg-gray-900  w-full z-20 top-0 left-0 ">
-            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="/" class="flex items-center">
-                    <img src="/blogs image/logo.png" class="lg:block hidden " alt="dr. Arif Logo">
-                    <img src="/blogs image/WhatsApp Image 2023-05-09 at 9.03.16 PM (1).jpeg" class=" lg:hidden "
-                        alt="dr. Arif Logo">
-                </a>
-                <div class="flex md:order-2">
-                    <i class="fa-regular fa-sun mt-3" style="color: #000000;"></i>
-                    <button type="button"
-                        class="font-bold ml-[22px] bg-[#be185d] text-white font-Poppins duration-500 px-6 py-2 mx-4 hover:bg-[#FFE9F1] hover:text-black rounded-xl hidden md:block">Appointment</button>
-
-                    <button data-collapse-toggle="navbar-sticky" type="button"
-                        class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                        aria-controls="navbar-sticky" aria-expanded="false">
-                        <span class="sr-only">Open main menu</span>
-                        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                                clip-rule="evenodd"></path>
-                        </svg>
-                    </button>
-                </div>
-                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-                    <ul
-                        class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                        <li>
-                            <a href="/index.html"
-                                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100  md:hover:bg-transparent md:hover:text-[#B81C58] md:p-0 md:dark:hover:text-[#B81C58] text-xl dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                                aria-current="page">Home</a>
-                        </li>
-                        <li>
-                            <a href="/"
-                                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#B81C58] md:p-0 md:dark:hover:text-blue-500 text-xl dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Service</a>
-                        </li>
-                        <li>
-                            <a href="/blogs.html"
-                                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#B81C58] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-xl">Blogs</a>
-                        </li>
-                        <li>
-                            <a href="/about.html"
-                                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#B81C58] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-xl">About</a>
-                        </li>
-                        <li>
-                            <a href="/our success.html"
-                                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#B81C58] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-xl">Our
-                                Success</a>
-                        </li>
-
-
-                        <li>
-                            <button type="button"
-                                class="font-bold bg-[#be185d] text-white font-Poppins duration-500 px-6 py-2 hover:bg-[#FFE9F1] hover:text-black rounded-xl block md:hidden">Appointment</button>
-                        </li>
-                    </ul>
-                </div>
+        <nav class=" mt-10 justify-between flex items-center justify-between">
+            <div>
+                <img src="/Image/Logo (1).png" class="hidden lg:block" alt="Flowbite Logo">
+                <img src="/Image/mobile logo image.jfif" class="lg:hidden ml-0" alt="Flowbite Logo">
             </div>
+            <!-- mobile version -->
+
+            <div>
+                <div class="items-center justify-between  md:flex  hidden md:w-auto md:order-1">
+                    <ul id="background-div"
+                        class="  p-[200px] gap-[40px] text-[20px] navul space-y-[20px] bg-gray-200 w-full h-screen  font-medium md:hidden fixed top-[0px]  w-full ">
+                        <li class="hover:text-[#B81C58]">Home </li>
+                        <li class="hover:text-[#B81C58]">Service</li>
+                        <li class="hover:text-[#B81C58]">About us </li>
+                        <li class="hover:text-[#B81C58]"><a href="blogs.html">Blogs</a></li>
+                        <li class="hover:text-[#B81C58]"><a href="our success.html">Our success </a></li>
+                    </ul>
+                    <!-- for large device -->
+                    <div class="items-center justify-between hidden md:block  w-full  md:w-auto">
+                        <ul class="flex gap-[40px] text-[20px] navul font-semibold ">
+                            <li class="hover:text-[#B81C58]"><a href="/index.html">Home </a></li>
+                            <li class="hover:text-[#B81C58]">Service</li>
+                            <li class="hover:text-[#B81C58]"><a  href="about.html">About us</a> </li>
+                            <li class="hover:text-[#B81C58]"><a class="text-[#B81C58]" href="/blogs.html">Blogs</a></li>
+                            <li class="hover:text-[#B81C58]"><a href="our success.html">Our success</a> </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="md:hidden flex gap-2">
+                <button class="block">
+                    <img src="/Image/Vector.svg" alt="">
+                </button>
+                <button id="hover-btn" class=" text-3xl">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            <div class=" md:flex gap-[22px] hidden md:block ">
+                <button class="">
+                    <img src="/Image/Vector.svg" alt="">
+                </button>
+                <button type="button" class="text-white text-[16px]  bg-[#B81C58] border
+                    rounded-[15px] px-[24px] py-[16px] font-medium hover:bg-[#E1236C]
+                   ">Appointment </button>
+            </div>
+
+
         </nav>
+
 
         <!-- <nav class="bg-white dark:bg-gray-900  w-full z-20 top-0 left-0 mt-[63px] ">
             <div class=" flex flex-wrap items-center justify-between mx-auto p-4">
@@ -500,92 +493,109 @@
                 </div>
 
             </div>
-        </section> -->
-        <section class="  lg:mt-[130px] mb-[63px] mt-[50px] ">
-            <div class="bg-[#FFF8FA] lg:px-[95px] lg:py-[100px]  rounded-[30px]">
-                <div class="lg:flex justify-between mb-[42px] text-center">
-                    <div class="space-y-[20px]">
-                        <div class="flex justify-center lg:justify-start">
-                            <img src="/blogs image/logo.png" alt="">
-                        </div>
+        <!-- FOOTER SECTION START -->
+        <section class="  lg:mt-[130px] mb-[63px] mt-[50px] py-[40px] ">
+            <div class=" bg-[#FFDAE8] lg:px-[95px] py-[46px] rounded-[30px]">
+                <div
+                    class="md:flex cursor-pointer justify-between justify-center  space-y-[20px] pb-[42px] md:border-b md:border-[#9F9599] ">
+                    <div class="  space-y-[20px] ">
                         <div>
-                            <p class="text-[16px]">
+                            <div class="hidden md:block">
+                                <img src="/Image/Logo (1).png" alt="">
+                            </div>
+                            <div class=" md:hidden flex  justify-center">
+                                <img src="/Image/Logo (1).png" alt="">
+                            </div>
+                        </div>
+                        <div class="">
+                            <p class="text-[16px] md:block hidden">
+                                Clarity gives you the blocks and <br> components you need to create <br> a truly
+                                professional
+                                website.
+                            </p>
+                            <p class="text-[16px] text-center md:hidden">
                                 Clarity gives you the blocks and <br> components you need to create <br> a truly
                                 professional
                                 website.
                             </p>
                         </div>
-                        <div class="lg:flex gap-[18px] lg:block hidden ">
-                            <div class="bg-[#B81C58] rounded">
-                                <button class=" rounded text-white bg-[#B81C58] text-[24px] w-[30px] h-[24px]"><i
-                                        class="fa-brands fa-instagram  hover:text-[30px]"></i></button>
+                        <div class=" md:flex hidden md:block   gap-[18px] ">
+                            <div>
+                                <img src="/Image/last icon ins png.png" alt="">
                             </div>
-                            <div class="bg-[#B81C58] rounded">
-                                <button class="text-[24px]  text-white bg-[#B81C58] rounded "><i
-                                        class="fa-brands fa-youtube px-1  "></i></button>
+                            <div>
+                                <img src="/Image/last icon fb png.png" alt="">
                             </div>
-                            <div class="bg-[#B81C58] rounded">
-                                <button class="text-[24px] text-white  w-[30px] h-[24px]"><i
-                                        class="fa-brands fa-facebook-f hover:text-[30px] "></i></button>
+                            <div>
+                                <img src="/Image/last icon ins png.png" alt="">
                             </div>
-                            <div class="bg-[#B81C58] rounded">
-                                <button class="text-[24px] w-[30px] h-[24px] text-white  "><i
-                                        class="fa-brands fa-linkedin-in hover:text-[30px]"></i></button>
+                            <div>
+                                <img src="/Image/last icon twiter img png.png" alt="">
                             </div>
+
                         </div>
+
+
+
                     </div>
-                    <div>
-                        <ul class="space-y-[30px] font-semibold my-3">
-                            <li>Company</li>
+                    <div class=" text-center md:text-left">
+                        <ul class="space-y-[30px] ">
+                            <li class="font-semibold">Company</li>
                             <li>About</li>
                             <li>Freature</li>
                             <li>works</li>
                             <li>People</li>
                         </ul>
                     </div>
-                    <div>
-                        <ul class="space-y-[30px] font-semibold  ">
-                            <li>Help</li>
+                    <div class="">
+                        <ul class=" space-y-[30px] text-center md:text-left">
+                            <li class=" mt-10 md:mt-0  font-semibold">Help</li>
                             <li>Customer Support</li>
                             <li>Contact info</li>
                             <li>Terms & Condition</li>
                             <li>Privacy Policy</li>
-                            <div class="block lg:hidden">
-
-                                <div class="flex  gap-[18px]  justify-center">
-                                    <img src="/insta.png" alt="">
-                                    <img src="/utube.png" alt="">
-                                    <img src="/fb.png" alt="">
-                                    <img src="/linkedin.png" alt="">
-
-                                </div>
-
                         </ul>
                     </div>
-                    <div class="px-[54px] lg:px-0">
-
-                        <ul class="font-semibold  ">
-                            <li>Newsletter</li>
-                        </ul>
-                        <div class="mt-[30px]">
-                            <input class="border-2 border-gray-300 py-[14px] pl-[13px] pr-[44px] rounded-[10px] w-full"
+                    <!-- icons for mobile version -->
+                    <div class=" mt-[20px] flex md:hidden justify-center gap-[18px] ">
+                        <div>
+                            <img class=" " src="/Image/last icon ins png.png" alt="">
+                        </div>
+                        <div>
+                            <img src="/Image/last icon fb png.png" alt="">
+                        </div>
+                        <div>
+                            <img src="/Image/last icon ins png.png" alt="">
+                        </div>
+                        <div>
+                            <img src="/Image/last icon twiter img png.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-center md:text-left ">Newsletter</h3>
+                        <div class=" flex justify-center mt-[30px]">
+                            <input class="border-2 border-gray-300 py-[14px] pl-[13px] pr-[44px] rounded-[10px]"
                                 type="text" placeholder="Enter your email address ">
                         </div>
-                        <div class="mt-[12px]">
+                        <div class="mt-[12px] flex justify-center">
                             <button
-                                class="w-full lg:px-[71px] px-5 py-[15px]  rounded-[10px] font-medium text-white bg-[#B81C58]">
+                                class="px-[71px] py-[15px]  hover:bg-[#E1236C]  rounded-[10px] font-medium text-white bg-[#B81C58]">
                                 Subscribe Now
                             </button>
                         </div>
                     </div>
                 </div>
-
-                <div class="mt-[25px] border-[#9F9599]  border-t-2">
-                    <p class="text-center text-[14px] mt-4 ">© Copyright 2022, All Rights Reserved by The YOLO Studio
-                    </p>
+                <hr class="text-red-500">
+                <div class="mt-[25px]">
+                    <p class="text-center text-[14px]">© Copyright 2022, All Rights Reserved by The YOLO Studio</p>
                 </div>
             </div>
         </section>
+
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+
 
 
     </main>
